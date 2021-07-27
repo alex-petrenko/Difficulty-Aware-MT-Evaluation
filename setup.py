@@ -10,7 +10,7 @@ setup(
     long_description=open("README.md", "r", encoding='utf-8').read(),
     long_description_content_type="text/markdown",
     license='MIT',
-    url="https://github.com/",
+    url="https://github.com/NLP2CT/Difficulty-Aware-MT-Evaluation",
     packages=find_packages(exclude=["*.tests", "*.tests.*",
                                     "tests.*", "tests"]),
     install_requires=['torch>=1.0.0',
