@@ -1,0 +1,28 @@
+\begin{table*}[ht]
+\centering
+\tiny
+\begin{tabular}{cccccccc}
+\toprule
+\textbf{SYSTEM} & \textbf{BLEU ↑} & \textbf{TER ↓} & \textbf{METEOR ↑} & \textbf{BERTScore ↑} & \textbf{BERTScoreHF ↑} & \textbf{DA-BERTScore ↑} & \textbf{HUMAN ↑} \\
+\midrule
+\textbf{Facebook-FAIR.6750} & {0.4075 ($\Downarrow$2)} & {0.4820 ($\Downarrow$5)} & {0.5590 ($\Downarrow$3)} & {0.7235 ($\Downarrow$1)} & {0.7235 ($\Downarrow$1)} & \textbf{0.1795 (\checkmark0)} & \textbf{0.1460} \\
+\textbf{MSRA.MADL.6910} & {0.4279 (\checkmark0)} & {0.4620 (\checkmark0)} & {0.5676 (\checkmark0)} & \textbf{0.7293 ($\Uparrow$1)} & \textbf{0.7293 ($\Uparrow$1)} & {0.1775 (\checkmark0)} & {0.1360} \\
+\textbf{RWTH-Aachen-System.6818} & {0.3956 ($\Downarrow$4)} & {0.4844 ($\Downarrow$5)} & {0.5530 ($\Downarrow$5)} & {0.7120 ($\Downarrow$3)} & {0.7120 ($\Downarrow$3)} & {0.1695 ($\Downarrow$2)} & {0.1360} \\
+\textbf{online-B.0} & \textbf{0.4520 ($\Uparrow$3)} & \textbf{0.4347 ($\Uparrow$3)} & \textbf{0.5737 ($\Uparrow$3)} & {0.7185 ($\Uparrow$1)} & {0.7185 ($\Uparrow$1)} & {0.1723 ($\Uparrow$1)} & {0.1210} \\
+\textbf{JHU.6809} & {0.3806 ($\Downarrow$5)} & {0.5059 ($\Downarrow$5)} & {0.5478 ($\Downarrow$4)} & {0.7028 ($\Downarrow$4)} & {0.7028 ($\Downarrow$4)} & {0.1671 ($\Downarrow$4)} & {0.0860} \\
+\textbf{MLLP-UPV.6899} & {0.3931 ($\Downarrow$1)} & {0.4908 ($\Downarrow$3)} & {0.5482 ($\Downarrow$2)} & {0.7103 ($\Downarrow$1)} & {0.7103 ($\Downarrow$1)} & {0.1685 (\checkmark0)} & {0.0670} \\
+\textbf{dfki-nmt.6478} & {0.3877 ($\Downarrow$2)} & {0.4814 ($\Uparrow$2)} & {0.5575 ($\Uparrow$2)} & {0.7058 ($\Downarrow$1)} & {0.7058 ($\Downarrow$1)} & {0.1676 ($\Downarrow$1)} & {0.0660} \\
+\textbf{UCAM.6461} & {0.3972 ($\Uparrow$2)} & {0.4901 ($\Downarrow$1)} & {0.5547 ($\Uparrow$1)} & {0.7104 ($\Uparrow$1)} & {0.7104 ($\Uparrow$1)} & {0.1685 ($\Uparrow$2)} & {0.0660} \\
+\textbf{online-A.0} & {0.3641 ($\Downarrow$2)} & {0.5183 ($\Downarrow$3)} & {0.5317 ($\Downarrow$2)} & {0.6848 ($\Downarrow$2)} & {0.6848 ($\Downarrow$2)} & {0.1610 ($\Downarrow$2)} & {0.0500} \\
+\textbf{NEU.6801} & {0.4051 ($\Uparrow$6)} & {0.4756 ($\Uparrow$7)} & {0.5613 ($\Uparrow$7)} & {0.7147 ($\Uparrow$6)} & {0.7147 ($\Uparrow$6)} & {0.1684 ($\Uparrow$3)} & {0.0390} \\
+\textbf{uedin.6749} & {0.3497 ($\Downarrow$1)} & {0.5143 (\checkmark0)} & {0.5228 ($\Downarrow$2)} & {0.6741 ($\Downarrow$1)} & {0.6741 ($\Downarrow$1)} & {0.1545 ($\Downarrow$1)} & {0.0110} \\
+\textbf{online-Y.0} & {0.3894 ($\Uparrow$4)} & {0.4790 ($\Uparrow$8)} & {0.5471 ($\Uparrow$2)} & {0.7011 ($\Uparrow$2)} & {0.7011 ($\Uparrow$2)} & {0.1670 ($\Uparrow$2)} & {0.0090} \\
+\textbf{TartuNLP-c.6502} & {0.3392 ($\Downarrow$1)} & {0.5294 ($\Downarrow$1)} & {0.5156 ($\Downarrow$1)} & {0.6573 (\checkmark0)} & {0.6573 (\checkmark0)} & {0.1494 ($\Downarrow$1)} & {0.0060} \\
+\textbf{online-G.0} & {0.3434 ($\Uparrow$1)} & {0.5244 ($\Uparrow$1)} & {0.5288 ($\Uparrow$2)} & {0.6545 (\checkmark0)} & {0.6545 (\checkmark0)} & {0.1517 ($\Uparrow$1)} & {-0.0510} \\
+\textbf{PROMT-NMT-DE-EN.6683} & {0.3208 (\checkmark0)} & {0.5568 (\checkmark0)} & {0.5032 (\checkmark0)} & {0.6186 (\checkmark0)} & {0.6186 (\checkmark0)} & {0.1377 (\checkmark0)} & {-0.1280} \\
+\midrule
+$sum(|\Delta_{rank}|)$ & {34} & {44} & {36} & {24} & {24} & \textbf{20} & {4} \\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:wmt_2019_de-en}WMT2019, de-en translation.}
+\end{table*}

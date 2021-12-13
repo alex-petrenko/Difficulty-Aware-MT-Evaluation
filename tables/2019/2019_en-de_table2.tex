@@ -1,0 +1,33 @@
+\begin{table*}[ht]
+\centering
+\tiny
+\begin{tabular}{cccccccc}
+\toprule
+\textbf{SYSTEM} & \textbf{BLEU ↑} & \textbf{TER ↓} & \textbf{METEOR ↑} & \textbf{BERTScore ↑} & \textbf{BERTScoreHF ↑} & \textbf{DA-BERTScore ↑} & \textbf{HUMAN ↑} \\
+\midrule
+\textbf{Facebook.6862} & {0.4267 ($\Downarrow$5)} & {0.4692 ($\Downarrow$6)} & {0.5568 ($\Downarrow$3)} & {0.7219 ($\Downarrow$4)} & {0.7219 ($\Downarrow$4)} & \textbf{0.1862 (\checkmark0)} & \textbf{0.3470} \\
+\textbf{Microsoft.sd.6974} & {0.4392 (\checkmark0)} & {0.4583 ($\Downarrow$1)} & \textbf{0.5638 ($\Uparrow$1)} & {0.7263 (\checkmark0)} & {0.7263 (\checkmark0)} & {0.1853 ($\Downarrow$1)} & {0.3110} \\
+\textbf{Microsoft.dl.6808} & {0.4385 (\checkmark0)} & {0.4591 ($\Downarrow$1)} & {0.5623 (\checkmark0)} & {0.7260 (\checkmark0)} & {0.7260 (\checkmark0)} & {0.1861 ($\Uparrow$1)} & {0.2960} \\
+\textbf{MSRA.6926} & \textbf{0.4493 ($\Uparrow$3)} & \textbf{0.4504 ($\Uparrow$3)} & {0.5631 ($\Uparrow$2)} & \textbf{0.7267 ($\Uparrow$3)} & \textbf{0.7267 ($\Uparrow$3)} & {0.1816 ($\Downarrow$2)} & {0.2140} \\
+\textbf{UCAM.6731} & {0.4301 (\checkmark0)} & {0.4636 (\checkmark0)} & {0.5496 ($\Downarrow$1)} & {0.7190 ($\Downarrow$1)} & {0.7190 ($\Downarrow$1)} & {0.1804 ($\Downarrow$3)} & {0.2130} \\
+\textbf{NEU.6763} & {0.4352 ($\Uparrow$2)} & {0.4563 ($\Uparrow$4)} & {0.5541 ($\Uparrow$1)} & {0.7229 ($\Uparrow$2)} & {0.7229 ($\Uparrow$2)} & {0.1812 ($\Downarrow$1)} & {0.2080} \\
+\textbf{MLLP-UPV.6651} & {0.4172 ($\Downarrow$3)} & {0.4827 ($\Downarrow$5)} & {0.5380 ($\Downarrow$5)} & {0.7101 ($\Downarrow$3)} & {0.7101 ($\Downarrow$3)} & {0.1802 ($\Downarrow$2)} & {0.1890} \\
+\textbf{eTranslation.6823} & {0.4190 ($\Downarrow$1)} & {0.4730 ($\Downarrow$1)} & {0.5437 ($\Downarrow$1)} & {0.7139 (\checkmark0)} & {0.7139 (\checkmark0)} & {0.1819 ($\Uparrow$3)} & {0.1300} \\
+\textbf{dfki-nmt.6479} & {0.4157 ($\Downarrow$2)} & {0.4757 ($\Downarrow$1)} & {0.5434 ($\Downarrow$1)} & {0.7063 ($\Downarrow$4)} & {0.7063 ($\Downarrow$4)} & {0.1789 ($\Downarrow$3)} & {0.1190} \\
+\textbf{online-B.0} & {0.4124 ($\Downarrow$3)} & {0.4860 ($\Downarrow$3)} & {0.5294 ($\Downarrow$4)} & {0.7089 ($\Downarrow$2)} & {0.7089 ($\Downarrow$2)} & {0.1828 ($\Uparrow$6)} & {0.0940} \\
+\textbf{JHU.6819} & {0.4252 ($\Uparrow$4)} & {0.4718 ($\Uparrow$3)} & {0.5462 ($\Uparrow$4)} & {0.7126 ($\Uparrow$2)} & {0.7126 ($\Uparrow$2)} & {0.1790 (\checkmark0)} & {0.0810} \\
+\textbf{Helsinki-NLP.6820} & {0.4141 (\checkmark0)} & {0.4766 ($\Uparrow$1)} & {0.5419 ($\Uparrow$1)} & {0.7095 ($\Uparrow$1)} & {0.7095 ($\Uparrow$1)} & {0.1770 ($\Downarrow$2)} & {0.0770} \\
+\textbf{online-Y.0} & {0.4202 ($\Uparrow$5)} & {0.4671 ($\Uparrow$7)} & {0.5444 ($\Uparrow$5)} & {0.7140 ($\Uparrow$6)} & {0.7140 ($\Uparrow$6)} & {0.1796 ($\Uparrow$3)} & {0.0380} \\
+\textbf{lmu-ctx.6981} & {0.4031 ($\Downarrow$1)} & {0.4963 (\checkmark0)} & {0.5350 ($\Uparrow$1)} & {0.6975 ($\Downarrow$1)} & {0.6975 ($\Downarrow$1)} & {0.1758 ($\Downarrow$1)} & {0.0100} \\
+\textbf{PROMT.6674} & {0.3794 ($\Downarrow$2)} & {0.5144 ($\Downarrow$3)} & {0.5124 ($\Downarrow$3)} & {0.6871 ($\Downarrow$1)} & {0.6871 ($\Downarrow$1)} & {0.1753 ($\Downarrow$1)} & {0.0010} \\
+\textbf{online-A.0} & {0.4103 ($\Uparrow$2)} & {0.4975 (\checkmark0)} & {0.5259 ($\Uparrow$1)} & {0.6982 ($\Uparrow$2)} & {0.6982 ($\Uparrow$2)} & {0.1771 ($\Uparrow$3)} & {-0.0720} \\
+\textbf{online-G.0} & {0.3514 ($\Downarrow$2)} & {0.4970 ($\Uparrow$2)} & {0.5192 (\checkmark0)} & {0.6767 ($\Downarrow$1)} & {0.6767 ($\Downarrow$1)} & {0.1724 ($\Downarrow$1)} & {-0.1190} \\
+\textbf{UdS-DFKI.6871} & {0.3865 ($\Uparrow$2)} & {0.5103 ($\Uparrow$1)} & {0.5242 ($\Uparrow$2)} & {0.6854 ($\Uparrow$1)} & {0.6854 ($\Uparrow$1)} & {0.1712 ($\Downarrow$1)} & {-0.1290} \\
+\textbf{TartuNLP.6508} & {0.3643 ($\Uparrow$1)} & {0.5309 (\checkmark0)} & {0.4978 (\checkmark0)} & {0.6757 (\checkmark0)} & {0.6757 (\checkmark0)} & {0.1748 ($\Uparrow$2)} & {-0.1320} \\
+\textbf{online-X.0} & {0.2948 (\checkmark0)} & {0.5831 (\checkmark0)} & {0.4864 (\checkmark0)} & {0.6317 (\checkmark0)} & {0.6317 (\checkmark0)} & {0.1666 (\checkmark0)} & {-0.4000} \\
+\midrule
+$sum(|\Delta_{rank}|)$ & {38} & {42} & {36} & \textbf{34} & \textbf{34} & {36} & {0} \\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:wmt_2019_en-de}WMT2019, en-de translation.}
+\end{table*}

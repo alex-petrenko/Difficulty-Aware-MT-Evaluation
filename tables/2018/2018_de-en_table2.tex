@@ -1,0 +1,29 @@
+\begin{table*}[ht]
+\centering
+\tiny
+\begin{tabular}{cccccccc}
+\toprule
+\textbf{SYSTEM} & \textbf{BLEU ↑} & \textbf{TER ↓} & \textbf{METEOR ↑} & \textbf{BERTScore ↑} & \textbf{BERTScoreHF ↑} & \textbf{DA-BERTScore ↑} & \textbf{HUMAN ↑} \\
+\midrule
+\textbf{RWTH.5636} & \textbf{0.4839 (\checkmark0)} & \textbf{0.3815 (\checkmark0)} & \textbf{0.6073 (\checkmark0)} & \textbf{0.7858 (\checkmark0)} & \textbf{0.7858 (\checkmark0)} & \textbf{0.2041 (\checkmark0)} & \textbf{0.4130} \\
+\textbf{UCAM.5690} & {0.4796 (\checkmark0)} & {0.3855 (\checkmark0)} & {0.6062 (\checkmark0)} & {0.7797 (\checkmark0)} & {0.7797 (\checkmark0)} & {0.2008 (\checkmark0)} & {0.3950} \\
+\textbf{NTT.5666} & {0.4684 (\checkmark0)} & {0.3981 (\checkmark0)} & {0.6019 (\checkmark0)} & {0.7727 (\checkmark0)} & {0.7727 (\checkmark0)} & {0.1996 (\checkmark0)} & {0.3590} \\
+\textbf{online-B.0} & {0.4393 ($\Downarrow$3)} & {0.4147 ($\Downarrow$3)} & {0.5853 ($\Downarrow$3)} & {0.7635 (\checkmark0)} & {0.7635 (\checkmark0)} & {0.1977 (\checkmark0)} & {0.3460} \\
+\textbf{MLLP-UPV.5554} & {0.4513 (\checkmark0)} & {0.4076 (\checkmark0)} & {0.5940 ($\Uparrow$1)} & {0.7568 ($\Downarrow$1)} & {0.7568 ($\Downarrow$1)} & {0.1918 ($\Downarrow$2)} & {0.3210} \\
+\textbf{JHU.5706} & {0.4529 ($\Uparrow$2)} & {0.4063 ($\Uparrow$2)} & {0.5938 ($\Uparrow$1)} & {0.7585 ($\Uparrow$1)} & {0.7585 ($\Uparrow$1)} & {0.1927 (\checkmark0)} & {0.3170} \\
+\textbf{Ubiqus-NMT.5635} & {0.4410 ($\Uparrow$1)} & {0.4116 ($\Uparrow$1)} & {0.5839 ($\Downarrow$1)} & {0.7549 (\checkmark0)} & {0.7549 (\checkmark0)} & {0.1876 ($\Downarrow$1)} & {0.3150} \\
+\textbf{online-Y.0} & {0.3948 ($\Downarrow$3)} & {0.4455 ($\Downarrow$1)} & {0.5678 ($\Downarrow$3)} & {0.7428 ($\Downarrow$1)} & {0.7428 ($\Downarrow$1)} & {0.1944 ($\Uparrow$3)} & {0.3100} \\
+\textbf{online-A.0} & {0.4057 ($\Downarrow$1)} & {0.4489 ($\Downarrow$2)} & {0.5729 (\checkmark0)} & {0.7336 ($\Downarrow$1)} & {0.7336 ($\Downarrow$1)} & {0.1859 ($\Downarrow$1)} & {0.2680} \\
+\textbf{uedin.5766} & {0.4390 ($\Uparrow$2)} & {0.4172 ($\Uparrow$2)} & {0.5854 ($\Uparrow$4)} & {0.7483 ($\Uparrow$2)} & {0.7483 ($\Uparrow$2)} & {0.1865 ($\Uparrow$1)} & {0.2610} \\
+\textbf{LMU-nmt.5756} & {0.4090 ($\Uparrow$2)} & {0.4456 ($\Uparrow$1)} & {0.5681 ($\Uparrow$1)} & {0.7214 (\checkmark0)} & {0.7214 (\checkmark0)} & {0.1761 ($\Downarrow$1)} & {0.1620} \\
+\textbf{NJUNMT-private.5406} & {0.3826 (\checkmark0)} & {0.4792 (\checkmark0)} & {0.5535 (\checkmark0)} & {0.7099 (\checkmark0)} & {0.7099 (\checkmark0)} & {0.1764 ($\Uparrow$1)} & {0.1490} \\
+\textbf{online-G.0} & {0.3185 (\checkmark0)} & {0.5375 (\checkmark0)} & {0.5453 (\checkmark0)} & {0.6371 (\checkmark0)} & {0.6371 (\checkmark0)} & {0.1585 (\checkmark0)} & {-0.0740} \\
+\textbf{online-F.0} & {0.2198 (\checkmark0)} & {0.6373 (\checkmark0)} & {0.4672 (\checkmark0)} & {0.5616 (\checkmark0)} & {0.5616 (\checkmark0)} & {0.1417 (\checkmark0)} & {-0.2960} \\
+\textbf{RWTH-UNSUPER.5482} & {0.1858 (\checkmark0)} & {0.6629 (\checkmark0)} & {0.4050 (\checkmark0)} & {0.4387 (\checkmark0)} & {0.4387 (\checkmark0)} & {0.0883 (\checkmark0)} & {-0.7520} \\
+\textbf{LMU-unsup.5650} & {0.1789 (\checkmark0)} & {0.6845 (\checkmark0)} & {0.3855 (\checkmark0)} & {0.4002 (\checkmark0)} & {0.4002 (\checkmark0)} & {0.0689 (\checkmark0)} & {-0.8350} \\
+\midrule
+$sum(|\Delta_{rank}|)$ & {14} & {12} & {14} & \textbf{6} & \textbf{6} & {10} & {0} \\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:wmt_2018_de-en}WMT2018, de-en translation.}
+\end{table*}

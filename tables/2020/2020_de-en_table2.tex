@@ -1,0 +1,25 @@
+\begin{table*}[ht]
+\centering
+\tiny
+\begin{tabular}{cccccccc}
+\toprule
+\textbf{SYSTEM} & \textbf{BLEU ↑} & \textbf{TER ↓} & \textbf{METEOR ↑} & \textbf{BERTScore ↑} & \textbf{BERTScoreHF ↑} & \textbf{DA-BERTScore ↑} & \textbf{HUMAN ↑} \\
+\midrule
+\textbf{Huoshan-Translate.789} & {0.4354 ($\Downarrow$1)} & {0.4359 ($\Downarrow$1)} & {0.6372 ($\Downarrow$1)} & {0.7638 ($\Downarrow$1)} & {0.7638 ($\Downarrow$1)} & {0.2129 ($\Downarrow$1)} & \textbf{0.2280} \\
+\textbf{OPPO.1360} & {0.4325 ($\Downarrow$1)} & {0.4417 ($\Downarrow$1)} & {0.6313 ($\Downarrow$2)} & {0.7543 ($\Downarrow$1)} & {0.7543 ($\Downarrow$1)} & {0.2085 ($\Downarrow$4)} & {0.2200} \\
+\textbf{Online-A.1571} & {0.4038 ($\Downarrow$4)} & {0.4593 ($\Downarrow$4)} & {0.6161 ($\Downarrow$4)} & {0.7491 ($\Downarrow$3)} & {0.7491 ($\Downarrow$3)} & {0.2098 ($\Downarrow$2)} & {0.1790} \\
+\textbf{Tohoku-AIP-NTT.1442} & \textbf{0.4379 ($\Uparrow$2)} & \textbf{0.4313 ($\Uparrow$2)} & \textbf{0.6424 ($\Uparrow$2)} & \textbf{0.7666 ($\Uparrow$2)} & \textbf{0.7666 ($\Uparrow$2)} & \textbf{0.2164 ($\Uparrow$2)} & {0.1790} \\
+\textbf{Online-G.1553} & {0.4140 ($\Downarrow$1)} & {0.4436 ($\Uparrow$1)} & {0.6329 ($\Uparrow$2)} & {0.7422 ($\Downarrow$2)} & {0.7422 ($\Downarrow$2)} & {0.2099 ($\Uparrow$1)} & {0.1720} \\
+\textbf{PROMT-NMT.77} & {0.3962 ($\Downarrow$2)} & {0.4646 ($\Downarrow$2)} & {0.6118 ($\Downarrow$2)} & {0.7348 ($\Downarrow$2)} & {0.7348 ($\Downarrow$2)} & {0.2017 ($\Downarrow$2)} & {0.1710} \\
+\textbf{Online-B.1587} & {0.4192 ($\Uparrow$2)} & {0.4446 ($\Uparrow$2)} & {0.6283 ($\Uparrow$1)} & {0.7526 ($\Uparrow$3)} & {0.7526 ($\Uparrow$3)} & {0.2103 ($\Uparrow$4)} & {0.1670} \\
+\textbf{UEDIN.1066} & {0.4226 ($\Uparrow$4)} & {0.4475 ($\Uparrow$2)} & {0.6307 ($\Uparrow$3)} & {0.7500 ($\Uparrow$3)} & {0.7500 ($\Uparrow$3)} & {0.2083 ($\Uparrow$1)} & {0.1310} \\
+\textbf{Online-Z.1629} & {0.3544 (\checkmark0)} & {0.5029 (\checkmark0)} & {0.5838 (\checkmark0)} & {0.6869 (\checkmark0)} & {0.6869 (\checkmark0)} & {0.1871 (\checkmark0)} & {0.0850} \\
+\textbf{WMTBiomedBaseline.387} & {0.3214 (\checkmark0)} & {0.5452 (\checkmark0)} & {0.5546 (\checkmark0)} & {0.6392 (\checkmark0)} & {0.6392 (\checkmark0)} & {0.1708 (\checkmark0)} & {-0.0790} \\
+\textbf{zlabs-nlp.1153} & {0.3152 (\checkmark0)} & {0.5606 (\checkmark0)} & {0.5369 (\checkmark0)} & {0.5857 (\checkmark0)} & {0.5857 (\checkmark0)} & {0.1481 (\checkmark0)} & {-0.1060} \\
+\textbf{yolo.1052} & {0.0018 (\checkmark0)} & {0.9374 (\checkmark0)} & {0.0817 (\checkmark0)} & {-0.0915 (\checkmark0)} & {-0.0915 (\checkmark0)} & {-0.0881 (\checkmark0)} & {-1.6180} \\
+\midrule
+$sum(|\Delta_{rank}|)$ & {17} & \textbf{15} & {17} & {17} & {17} & {17} & {2} \\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:wmt_2020_de-en}WMT2020, de-en translation.}
+\end{table*}

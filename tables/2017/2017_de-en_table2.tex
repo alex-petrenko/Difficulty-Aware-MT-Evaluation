@@ -1,0 +1,24 @@
+\begin{table*}[ht]
+\centering
+\tiny
+\begin{tabular}{cccccccc}
+\toprule
+\textbf{SYSTEM} & \textbf{BLEU ↑} & \textbf{TER ↓} & \textbf{METEOR ↑} & \textbf{BERTScore ↑} & \textbf{BERTScoreHF ↑} & \textbf{DA-BERTScore ↑} & \textbf{HUMAN ↑} \\
+\midrule
+\textbf{online-B.0} & {0.3297 ($\Downarrow$4)} & {0.5393 ($\Downarrow$3)} & {0.5145 ($\Downarrow$4)} & {0.6911 ($\Downarrow$1)} & {0.6911 ($\Downarrow$1)} & \textbf{0.1956 (\checkmark0)} & \textbf{0.2130} \\
+\textbf{online-A.0} & {0.3248 ($\Downarrow$4)} & {0.5434 ($\Downarrow$4)} & {0.5151 ($\Downarrow$1)} & {0.6814 ($\Downarrow$2)} & {0.6814 ($\Downarrow$2)} & {0.1915 ($\Downarrow$1)} & {0.1690} \\
+\textbf{KIT.4951} & {0.3456 ($\Uparrow$1)} & \textbf{0.5238 ($\Uparrow$2)} & {0.5249 ($\Uparrow$1)} & {0.6870 (\checkmark0)} & {0.6870 (\checkmark0)} & {0.1879 ($\Downarrow$1)} & {0.1650} \\
+\textbf{uedin-nmt.4723} & \textbf{0.3512 ($\Uparrow$3)} & {0.5244 ($\Uparrow$2)} & \textbf{0.5274 ($\Uparrow$3)} & \textbf{0.6929 ($\Uparrow$3)} & \textbf{0.6929 ($\Uparrow$3)} & {0.1929 ($\Uparrow$2)} & {0.1620} \\
+\textbf{RWTH-nmt-ensemble.4920} & {0.3312 ($\Uparrow$1)} & {0.5418 (\checkmark0)} & {0.5148 ($\Uparrow$1)} & {0.6746 (\checkmark0)} & {0.6746 (\checkmark0)} & {0.1833 (\checkmark0)} & {0.1310} \\
+\textbf{SYSTRAN.4846} & {0.3317 ($\Uparrow$3)} & {0.5285 ($\Uparrow$3)} & {0.5113 (\checkmark0)} & {0.6744 (\checkmark0)} & {0.6744 (\checkmark0)} & {0.1813 (\checkmark0)} & {0.0980} \\
+\textbf{LIUM-NMT.4733} & {0.3010 (\checkmark0)} & {0.5748 ($\Downarrow$1)} & {0.4924 ($\Downarrow$1)} & {0.6445 (\checkmark0)} & {0.6445 (\checkmark0)} & {0.1718 (\checkmark0)} & {0.0290} \\
+\textbf{TALP-UPC.4830} & {0.2809 ($\Downarrow$1)} & {0.5824 ($\Downarrow$1)} & {0.4756 ($\Downarrow$2)} & {0.6122 ($\Downarrow$1)} & {0.6122 ($\Downarrow$1)} & {0.1587 ($\Downarrow$1)} & {-0.0580} \\
+\textbf{online-G.0} & {0.2604 ($\Downarrow$1)} & {0.6192 ($\Downarrow$1)} & {0.4936 ($\Uparrow$2)} & {0.5966 ($\Downarrow$1)} & {0.5966 ($\Downarrow$1)} & {0.1629 ($\Uparrow$1)} & {-0.0720} \\
+\textbf{C-3MA.4958} & {0.2898 ($\Uparrow$2)} & {0.5744 ($\Uparrow$3)} & {0.4777 ($\Uparrow$1)} & {0.6218 ($\Uparrow$2)} & {0.6218 ($\Uparrow$2)} & {0.1575 (\checkmark0)} & {-0.1030} \\
+\textbf{online-F.0} & {0.1767 (\checkmark0)} & {0.7077 (\checkmark0)} & {0.4200 (\checkmark0)} & {0.5230 (\checkmark0)} & {0.5230 (\checkmark0)} & {0.1418 (\checkmark0)} & {-0.2600} \\
+\midrule
+$sum(|\Delta_{rank}|)$ & {20} & {20} & {16} & {10} & {10} & \textbf{6} & {0} \\
+\bottomrule
+\end{tabular}
+\caption{\label{tab:wmt_2017_de-en}WMT2017, de-en translation.}
+\end{table*}
